@@ -1,5 +1,28 @@
 {
+  "name": "pcs_node-express-lilly-ane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/pcs_node-express-Lilly-ane.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/pcs_node-express-Lilly-ane/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/pcs_node-express-Lilly-ane#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
