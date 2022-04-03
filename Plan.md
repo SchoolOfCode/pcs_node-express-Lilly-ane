@@ -13,12 +13,20 @@ PLAN
 - create libs folder and todos.js file
 - create a new array with some todos
 
-![](https://www.meme-arsenal.com/memes/79f45dcf41fcd8a02852c9f2afe185b5.jpg)
+- create models folder
+- write all the necessary functions for the crud operations
+
+- create the routes folder
+- connect the models with the routes
+
+- use the router in the app
+- test with postman
+
 
 ### Requirements
 
-- Use Express.js/Node.js
-- Have folder structure models/routes and app.js file
-- Create a your own todos data (array of objects ex: [{ id: 1, task: '' }, etc]
-- Make use of postman to test if your API endpoints are working
-- use atleast 1 middleware
+- Use Express.js/Node.js done
+- Have folder structure models/routes and app.js file done
+- Create a your own todos data (array of objects ex: [{ id: 1, task: '' }, etc] done
+- Make use of postman to test if your API endpoints are working done
+- use atleast 1 middleware done

@@ -2,6 +2,7 @@ import todos from "../libs/todos.js";
 
 // Create
 export function insertToDo(req, res) {
+  // add the todo to the array, use the array length as id (it increases every time)
   todos.push({ id: todos.length, task: req.body.task });
   res.json({
     success: true,
@@ -18,10 +19,11 @@ export function readAll(req, res) {
 }
 
 export function readById(req, res) {
+  // find the todo with a specific id
   const found = todos.find((todo) => todo.id === Number(req.params.id));
   res.json({
     success: true,
-    payload: found ?? "Not found",
+    payload: found ?? "Not found", // ?? means if found is undefined, return "Not found"
   });
 }
 
