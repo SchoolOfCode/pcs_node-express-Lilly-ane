@@ -10,6 +10,9 @@ PLAN
 - define port
 - express app listening
 
+- create libs folder and todos.js file
+- create a new array with some todos
+
 ![](https://www.meme-arsenal.com/memes/79f45dcf41fcd8a02852c9f2afe185b5.jpg)
 
 ### Requirements
