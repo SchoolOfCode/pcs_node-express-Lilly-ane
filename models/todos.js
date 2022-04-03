@@ -27,7 +27,7 @@ export function readById(req, res) {
 
 // Update
 export function updateById(req, res) {
-  todos.forEach((todo, index) => {
+  todos.forEach((todo) => {
     if (todo.id === Number(req.params.id)) {
       todo.task = req.body.task;
     }
@@ -39,3 +39,14 @@ export function updateById(req, res) {
 }
 
 // Delete
+export function deleteById(req, res) {
+  todos.forEach((todo, index) => {
+    if (todo.id === Number(req.params.id)) {
+      todos.splice(index, 1);
+    }
+  });
+  res.json({
+    success: true,
+    payload: todos,
+  });
+}
